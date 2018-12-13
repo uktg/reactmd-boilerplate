@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationDrawer } from 'react-md';
-import logo from './logo.svg';
-import './App.scss';
+import logo from 'logo.svg';
+import 'styles/components/App.scss';
 
 const App = () => (
   <NavigationDrawer

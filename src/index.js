@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import WebFontLoader from 'webfontloader';
 
-import App from './App';
+import App from 'components/App';
+import 'styles/index.scss';
 import * as serviceWorker from './serviceWorker';
-import './index.scss';
 
 WebFontLoader.load({
   google: {
