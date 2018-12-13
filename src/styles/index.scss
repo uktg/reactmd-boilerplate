@@ -16,3 +16,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.view-port {
+  @media #{$md-desktop-media} {
+    height: calc(100vh - 80px);
+  }
+}
+.centered-content {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
