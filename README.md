@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [node-sass] (https://www.npmjs.com/package/node-sass)<br>
 
 ## Packages Manager used
-###`yarn`
+### `yarn`
 Please make sure to run yarn commands and not npm.
 
 
