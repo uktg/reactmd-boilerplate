@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Packages used
+[react-md] (https://www.npmjs.com/package/react-md)<br>
+[react-router-dom] (https://www.npmjs.com/package/react-router-dom)<br>
+[node-sass] (https://www.npmjs.com/package/node-sass)<br>
+
+## Packages Manager used
+###`yarn`
+Please make sure to run yarn commands and not npm.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -16,6 +26,11 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run test:lint:js`
+
+Runs the eslint for js and jsx files in src/*.<br>
+You will see any lint errors in the console.
 
 ### `npm run build`
 
