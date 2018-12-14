@@ -13,11 +13,11 @@ WebFontLoader.load({
   }
 });
 
+/* eslint-disable react/jsx-filename-extension */
 ReactDOM.render(
   <BrowserRouter>
     <App />
   </BrowserRouter>,
-  // React.createElement(App),
   document.getElementById('root')
 );
 

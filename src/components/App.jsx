@@ -13,6 +13,7 @@ import Drafts from 'components/Drafts';
 import Starred from 'components/Starred';
 import Trash from 'components/Trash';
 
+/* eslint-disable react/prop-types */
 const App = ({ location }) => (
   <NavigationDrawer
     toolbarTitle="react-md with create-react-app v2"
