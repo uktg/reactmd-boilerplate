@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavigationDrawer } from 'react-md';
-import { withRouter } from 'react-router';
-import { Route, Switch } from 'react-router-dom';
+import { withRouter, Route, Switch } from 'react-router-dom';
 
 import 'styles/components/App.scss';
 import 'styles/components/common/_NavLink.scss';
